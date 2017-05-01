@@ -5,3 +5,4 @@ import seaborn as sns
 
 df = sns.load_dataset('tips')
 seaborn_plot = sns.pairplot(df)
+seaborn_plot.savefig('pairplot.png')
